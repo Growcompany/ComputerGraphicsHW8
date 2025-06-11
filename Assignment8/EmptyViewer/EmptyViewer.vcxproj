@@ -50,7 +50,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -75,20 +75,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Downloads\frame_timer.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\load_mesh.cpp" />
+    <ClCompile Include="frame_timer.cpp" />
+    <ClCompile Include="load_mesh.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="sphere_scene.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Phong.frag" />
-    <None Include="Phong.vert" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="sphere_scene.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="..\..\..\..\..\Downloads\bunny.obj" />
+    <None Include="bunny.obj" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

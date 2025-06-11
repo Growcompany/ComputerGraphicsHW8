@@ -20,8 +20,8 @@
 #include <GL/glu.h>
 #include <GL/glext.h>
 
-float  					gTotalTimeElapsed 	= 0;
-int 					gTotalFrames		= 0;
+float  					gTotalTimeElapsed = 0;
+int 					gTotalFrames = 0;
 GLuint 					gTimer;
 
 void init_timer()
@@ -56,18 +56,18 @@ void display()
 {
 	// TODO: Clear the screen and depth buffer.
 
- 	start_timing();
+	start_timing();
 
- 	// TODO: Draw the bunny.
-  	
+	// TODO: Draw the bunny.
+
 	float timeElapsed = stop_timing();
-  	gTotalFrames++;
-  	gTotalTimeElapsed += timeElapsed;
-  	float fps = gTotalFrames / gTotalTimeElapsed;
-  	char string[1024] = {0};
-  	sprintf(string, "OpenGL Bunny: %0.2f FPS", fps);
-  	glutSetWindowTitle(string);
+	gTotalFrames++;
+	gTotalTimeElapsed += timeElapsed;
+	float fps = gTotalFrames / gTotalTimeElapsed;
+	char string[1024] = { 0 };
+	sprintf(string, "OpenGL Bunny: %0.2f FPS", fps);
+	glutSetWindowTitle(string);
 
 	glutPostRedisplay();
-  	glutSwapBuffers();
+	glutSwapBuffers();
 }

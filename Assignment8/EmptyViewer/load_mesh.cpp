@@ -56,7 +56,7 @@ int face_index(const char* string)
 {
 	int length = strlen(string);
 	char* copy = new char[length + 1];
-	memset(copy, 0, length+1);
+	memset(copy, 0, length + 1);
 	strcpy(copy, string);
 
 	std::vector<std::string> tokens;
@@ -91,7 +91,7 @@ void load_mesh(std::string fileName)
 
 	while (true)
 	{
-		char line[1024] = {0};
+		char line[1024] = { 0 };
 		fin.getline(line, 1024);
 
 		if (fin.eof())
@@ -116,7 +116,7 @@ void load_mesh(std::string fileName)
 			zmin = std::min(z, zmin);
 			zmax = std::max(z, zmax);
 
-			Vector3 position = {x, y, z};
+			Vector3 position = { x, y, z };
 			gPositions.push_back(position);
 		}
 		else if (tokens[0] == "vn")
@@ -124,7 +124,7 @@ void load_mesh(std::string fileName)
 			float x = atof(tokens[1].c_str());
 			float y = atof(tokens[2].c_str());
 			float z = atof(tokens[3].c_str());
-			Vector3 normal = {x, y, z};
+			Vector3 normal = { x, y, z };
 			gNormals.push_back(normal);
 		}
 		else if (tokens[0] == "f")
