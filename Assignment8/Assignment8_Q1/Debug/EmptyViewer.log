@@ -1,0 +1,24 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Assignment8.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  frame_timer.cpp
+  load_mesh.cpp
+C:\Users\hwan\Documents\GitHub\ComputerGraphicsHW8\Assignment8\Assignment8_Q1\load_mesh.cpp(108,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\hwan\Documents\GitHub\ComputerGraphicsHW8\Assignment8\Assignment8_Q1\load_mesh.cpp(109,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\hwan\Documents\GitHub\ComputerGraphicsHW8\Assignment8\Assignment8_Q1\load_mesh.cpp(110,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\hwan\Documents\GitHub\ComputerGraphicsHW8\Assignment8\Assignment8_Q1\load_mesh.cpp(124,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\hwan\Documents\GitHub\ComputerGraphicsHW8\Assignment8\Assignment8_Q1\load_mesh.cpp(125,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\hwan\Documents\GitHub\ComputerGraphicsHW8\Assignment8\Assignment8_Q1\load_mesh.cpp(126,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Hw8_Q1_main.cpp
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: rotate_slow function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: perspectiveFov function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: infinitePerspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: tweakedInfinitePerspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: roll function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: pitch function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: yaw function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: angle function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: angleAxis function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  Generating Code...
+  EmptyViewer.vcxproj -> C:\Users\hwan\Documents\GitHub\ComputerGraphicsHW8\Assignment8\bin\Assignment8_Q1.exe
